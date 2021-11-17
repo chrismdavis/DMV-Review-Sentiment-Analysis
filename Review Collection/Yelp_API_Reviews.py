@@ -6,8 +6,8 @@ import pandas as pd
 locations = pd.read_csv('Major Cities.csv')
 
 # Set up Yelp API
-client_id = 'DVi_4btNemHREJJcT-JCKA'
-api_key = 'nmCmLYxw_ewkTiftE-J5DaZyJMTr8ZpqJ7FbzWNCu-dMJ-lEgVstKhba5mseN_1wz0MR8i25BBWCDq-QykHardSzGhy4ZqWUc4zKidmqsxyug8hWi82lCAMGXhmQYXYx'
+client_id = '*****'
+api_key = '*****'
 yelp_api = YelpAPI(api_key)
 
 # Gather all DMV Locations

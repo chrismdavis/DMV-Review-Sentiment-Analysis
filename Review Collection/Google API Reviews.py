@@ -6,7 +6,7 @@ import pandas as pd
 locations = pd.read_csv('Major Cities.csv')
 
 # Google API Instance
-gmaps = googlemaps.Client(key='AIzaSyAtgajuDmi4xjv1frQIvLfawsA5XGMPDxo')
+gmaps = googlemaps.Client(key='*****')
 
 # Gather all DMV Locations
 DMV_List = pd.DataFrame(columns = ['name','place_id','types'])
